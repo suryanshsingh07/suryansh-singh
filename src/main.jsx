@@ -8,7 +8,7 @@ const repoName = 'suryansh-singh'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter  basename={isGhPages ? '/suryansh-singh/' : '/'}>
       <App />
     </BrowserRouter>
   </StrictMode>,
