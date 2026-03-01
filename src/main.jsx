@@ -8,7 +8,7 @@ const repoName = 'suryansh-singh'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename={`/${repoName}/`}>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
