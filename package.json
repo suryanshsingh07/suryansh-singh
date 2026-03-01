@@ -1,16 +1,13 @@
 {
   "name": "suryansh-singh",
-  "homepage": "https://suryanshsingh07.github.io/suryansh-singh/",
-  "private": true,
+   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
