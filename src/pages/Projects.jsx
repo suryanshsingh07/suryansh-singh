@@ -55,10 +55,11 @@ const Projects = ({darkMode}) => {
   return (
     <section id='projects'
     style={{backgroundColor: darkMode ? '#111827' : '#f9fafb'}}
-    className='relative py-24'>
+    className='relative py-10'>
         <div className='container mx-auto px-4'>
             <div className='text-center mb-10' data-aos='fade-up'>
-                <h2>My
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+                    My
                     <span style={{background: 'linear-gradient(to right, #f97316, #f59e0b)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent'}}> Projects
                     </span>
                 </h2>

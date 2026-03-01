@@ -15,7 +15,7 @@ const Hero = ({darkMode}) => {
     ];
 
   return (
-    <div className={`relative overflow-hidden min-h-screen flex flex-col ${
+    <div className={`relative overflow-hidden h-auto flex flex-col ${
         darkMode ? 'bg-gray-900' : 'bg-white'}`}>
         <section
         id='home'
