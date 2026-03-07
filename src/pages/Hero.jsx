@@ -1,7 +1,17 @@
 import React from 'react'
+
+import github from '../assets/social/github.png';;
+import linkedin from '../assets/social/linkedin.png';
+import leetcode from '../assets/social/leetcode.jpg';
+import hackerrank from '../assets/social/hackerrank.png';
+import codechef from '../assets/social/codechef.png';
+import X from '../assets/social/X.png';
+import whatsapp from '../assets/social/whatsapp.png';
+import telegram from '../assets/social/telegram.png';
 import instagram from '../assets/social/instagram.png';
-import github from '../assets/social/github.png';
-import youtube from '../assets/social/youtube.png';
+import facebook from '../assets/social/facebook.png';
+
+
 import hero from '../assets/ui/hero.png';
 import hi from '../assets/ui/hi.png';
 import CV from '../assets/CV.pdf';
@@ -9,9 +19,16 @@ import { DownloadIcon, Mail } from 'lucide-react';
 
 const Hero = ({darkMode}) => {
     const socialIcons = [
-        {icon: instagram, alt: 'instagram'},
-        {icon: github, alt: 'github'},
-        {icon: youtube, alt: 'youtube'},       
+        {icon: github, alt: 'GitHub', url:'https://github.com/suryanshsingh07'},
+        {icon: linkedin, alt: 'LinkedIn', url:'https://www.linkedin.com/in/suryansh-singh-thakur/'},
+        {icon: leetcode, alt: 'LeetCode', url:'https://leetcode.com/u/suryansh_singh07/'},
+        {icon: hackerrank, alt: 'hackerRank', url:'https://www.hackerrank.com/profile/suryanshsinghch5'},
+        {icon: codechef, alt: 'CodeChef', url:'https://www.codechef.com/users/sury_ansh_07'},
+        {icon: X, alt: 'X', url:'https://x.com/essential_ladka'},
+        {icon: telegram, alt: 'Telegram', url:'https://t.me/essential_ladka'},
+        {icon: whatsapp, alt: 'WhatsApp', url:'https://wa.me/8874518917'},
+        {icon: facebook, alt: 'Facebook', url:'https://www.facebook.com/share/1BaiL4Lvip/'},  
+        {icon: instagram, alt: 'Instagram', url:'https://www.instagram.com/essential_ladka?igsh=MWc2bTJraWV2cHdjdQ=='},     
     ];
 
   return (
@@ -29,7 +46,7 @@ const Hero = ({darkMode}) => {
                         {socialIcons.map((social, index) => (
                             <a
                             key={index}
-                            href='#'
+                            href={social.url}
                             target='_blank'
                             rel="noopener noreferrer"
                             data-aos-delay={`${400 + index * 100}`}>
@@ -49,7 +66,7 @@ const Hero = ({darkMode}) => {
                         </h1>
                         <p className={`mb-6 sm:mb-8 leading-relaxed max-w-md sm:max-w-lg ${
                             darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                                Full Stack Developer & UI/UX Designer
                         </p>
                     <div className='w-full pt-4 sm:pt-6'>
                         <div className='flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4'>
@@ -75,7 +92,7 @@ const Hero = ({darkMode}) => {
                         <div className='relative overflow-hidden'>
                             <img src={hero} alt='Hero image' className='w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500'/>
                             <div>
-                                <img src={hi} alt='Hi icon' className='absolute top-4 sm:top-1 left-6 sm:left-20 w-14 h-14 sm:h-20 object-contain animate-bounce opacity-90 z-10'/>
+                                <img src={hi} alt='Hi icon' className='absolute top-5 sm:top-16 left-6 sm:left-20 w-20 h-20 sm:h-28 sm:w-28 object-contain animate-bounce opacity-90 z-10'/>
                             </div>
                         </div>
                     </div>

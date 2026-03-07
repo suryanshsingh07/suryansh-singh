@@ -3,7 +3,7 @@ import about from '../assets/ui/about.png';
 
 const About = ({darkMode}) => {
   return (
-    <section id='about' className={`h-auto overflow-hidden flex items-center justify-center px-4 sm:px-6 ${darkMode ? 'bg-gray-900' : 'bg-gray-50'}`}>
+    <section id='about' className={`h-auto overflow-hidden flex items-center justify-center px-4 sm:px-6 lg:pb-6 ${darkMode ? 'bg-gray-900' : 'bg-gray-50'}`}>
         <div className='max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center'>
             <figure
             data-aos='fade-up'
@@ -25,7 +25,9 @@ const About = ({darkMode}) => {
                         About ME
                     </h1>
                     <p className={`text-sm sm:text-base lg:text-lg xl:text-xl mb-6 sm:mb-8 leading-relaxed bg-linear-to-r from-orange-900/10 to-orange-900/5 p-4 sm:p-6 rounded-xl sm:rounded-2xl backdrop-blur-sm ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi voluptatibus molestiae nemo quidem iusto maiores excepturi, ipsum itaque quia aliquam, dolore eaque quod blanditiis veritatis, obcaecati dolorum dicta cum omnis.
+                    I am Suryansh Singh, a Computer Science student passionate about solving problems, building meaningful connections and growing through continuous learning. I believe that every great journey in Computer Science starts with a simple "Hello world" — the first step, the first idea, the first push forward.
+                    <br></br><br></br>
+                    I have completed my Schooling from Aliganj Montessori School, Lucknow where I developed a mindset that continues to shape my learning, currently, I am pursuing my graduation in Computer Science from Shri Ramswaroop Memorial University (SRMU).
                     </p>
                 </header>
                 <div className='flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8'>

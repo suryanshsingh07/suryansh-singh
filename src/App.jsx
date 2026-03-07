@@ -13,7 +13,7 @@ import Footer from './pages/Footer';
 import Certificates from './pages/Certificates';
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     AOS.init({
@@ -40,7 +40,7 @@ const App = () => {
       <Hero darkMode={darkMode}/>
       <About darkMode={darkMode}/>
       <Skills darkMode={darkMode}/>
-      <Projects darkMode={darkMode}/>
+      {/* <Projects darkMode={darkMode}/> */}
       <Contact darkMode={darkMode}/>
       <Footer darkMode={darkMode}/> 
       {/* <Certificates darkMode={darkMode}/> */}

@@ -10,18 +10,18 @@ import vite from '../assets/skill/vite.png';
 
 const Skills = ({darkMode}) => {
     const skills = [
-        {name: 'laravel', icon: laravel, level: 95,
-            color: 'from-orange-500 to-amber-500'},
-        {name: 'framer motion', icon: framer_motion, level: 90,
-            color: 'from-blue-500 to-cyan-500'},
-        {name: 'vue', icon: vue, level: 88,
-            color: 'from-yellow-500 to-amber-500'},
+        // {name: 'laravel', icon: laravel, level: 95,
+        //     color: 'from-orange-500 to-amber-500'},
+        // {name: 'framer motion', icon: framer_motion, level: 90,
+        //     color: 'from-blue-500 to-cyan-500'},
+        // {name: 'vue', icon: vue, level: 88,
+        //     color: 'from-yellow-500 to-amber-500'},
         {name: 'React', icon: react, level: 85,
             color: 'from-cyan-500 to-blue-500'},
         {name: 'Tailwind CSS', icon: tailwind, level: 92,
             color: 'from-teal-500 to-cyan-500'},
-        {name: 'Firebase', icon: firebase, level: 88,
-            color: 'from-green-500 to-emerald-500'},
+        // {name: 'Firebase', icon: firebase, level: 88,
+        //     color: 'from-green-500 to-emerald-500'},
         {name: 'Python', icon: python, level: 75,
             color: 'from-blue-500 to-indigo-500'},
         {name: 'Vite', icon: vite, level: 88,
@@ -45,7 +45,7 @@ const Skills = ({darkMode}) => {
                     </h1>
                     <p className='text-lg max-w-2xl mx-auto leading-relaxed'
                     style={{color: darkMode ? '#d1d5db' : '#4b5563'}}> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt laborum est pariatur corrupti temporibus? Veniam saepe nostrum perferendis quia laudantium facere, molestiae aliquid in atque iusto iure laborum sint repellat!
+                        Technology excites me and I am always in awe of the change it drives in the world. With a little experience in C Programming Language and Python. I’m at the beginning of my journey — but fully committed to growing every day. I might lack in skills but, I make up for it with my strong determination to learn. 
                     </p>
                 </div>
                 <div className='flex flex-wrap -m-4'
